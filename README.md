@@ -11,7 +11,14 @@ sklearn_tutorial 中文教程，翻译自 Jake VanderPlas 的 [Scikit-learn Tuto
 - twitter: [@jakevdp](https://twitter.com/jakevdp)
 - github: [jakevdp](http://github.com/jakevdp)
 
-这个代码库包含了[Scikit-learn](http://scikit-learn.org)教程的 notebooks 和其他相关的文件。
+*派兰数据*
+
+- email: <public@datarx.cn>
+- 微博: [@派兰数据](http://weibo.com/datarx)
+- github: [palandatarxcom](http://github.com/palandatarxcom)
+
+
+这个代码库包含了[Scikit-learn](http://scikit-learn.org)教程的 notebook 和其他相关的文件。
 
 
 ## 安装
@@ -25,37 +32,31 @@ sklearn_tutorial 中文教程，翻译自 Jake VanderPlas 的 [Scikit-learn Tuto
 - `ipython` 版本 2.0 或更高, 支持 Jupyter notebook: http://ipython.org
 - `seaborn` 版本 0.5 或更高
 
-The easiest way to get these is to use the [conda](https://store.continuum.io/) environment manager.
-I suggest downloading and installing [miniconda](http://conda.pydata.org/miniconda.html).
+最方便的拌饭是使用 [conda](https://store.continuum.io/) 管理工具。 我建议现在和安装 [miniconda](http://conda.pydata.org/miniconda.html)。
 
-Once this is installed, the following command will install all required packages in your Python environment:
+安装好以后，执行下面的命令将在你的 Python 环境下安装所有需要的包
+
 ```
 $ conda install numpy scipy matplotlib scikit-learn ipython-notebook seaborn
 ```
 
-Alternatively, you can download and install the (very large) Anaconda software distribution, found at https://store.continuum.io/.
+另外一个方法，你可以下载和安装完整的 Anaconda 分发包(但是非常大)， https://store.continuum.io/.
 
-## Downloading the Tutorial Materials
-I would highly recommend using git, not only for this tutorial, but for the
-general betterment of your life.  Once git is installed, you can clone the
-material in this tutorial by using the git address shown above:
+
+## 下载教程的课件
+
+我强烈建议使用 git，不仅仅只是为这个教程，也是为改善你的生活。 一旦 git 安装好，你可以将这个教程的所有资料克隆下来：
 
     git clone git://github.com/jakevdp/sklearn_tutorial.git
 
-If you can't or don't want to install git, there is a link above to download
-the contents of this repository as a zip file.  I may make minor changes to
-the repository in the days before the tutorial, however, so cloning the
-repository is a much better option.
+如果你无法或者不愿安装 git，上面有一个代码库的 zip 文件供你下载。 我可能会对这个教程做一些微小的改动，所以克隆整个代码库是较好的一个选择。
 
 
-## Notebook Listing
-You can [view the tutorial materials](http://nbviewer.ipython.org/github/jakevdp/sklearn_tutorial/blob/master/notebooks/Index.ipynb) using the excellent nbviewer service.
+## Notebook 清单
+你可以通过 nbviewer 这个不错的服务[浏览教程的课件](http://nbviewer.ipython.org/github/palandatarxcom/sklearn_tutorial_cn/blob/master/notebooks/Index.ipynb)
 
-Note, however, that you cannot modify or run the contents within nbviewer.
-To modify them, first download the tutorial repository, change to the notebooks directory, and run ``ipython notebook``.
-You should see the list in the ipython notebook launch page in your web browser.
-For more information on the IPython notebook, see http://ipython.org/notebook.html
+请注意，你无法在 nbviewer 中修改或者运行教程的内容。 如果要修改，第一步是下载教程的代码库，切换到 notebooks 目录下面，然后执行 ``jupyter notebook``。 你应该会在 Jupyter notebook 唤起的浏览器里面看到这个清单。 需要更多了解 Jupyter notebook，请参考 http://ipython.org/notebook.html
 
-Note also that some of the code in these notebooks will not work outside the
-directory structure of this tutorial, so it is important to clone the full
-repository if possible.
+另外也请注意，部分的代码在这个教程的目录结构之外是无法运行的，因此如果可能把整个代码库克隆下来是很重要的。
+
+【译者注】这个教程的全部内容已经安装在派兰数据分析平台上了，注册并登陆 http://palandata.com，不需要安装相关环境，也不需要克隆整个代码库，即可可以交互式地学习 sklearn 了。
