@@ -18,7 +18,7 @@ sklearn_tutorial 中文教程，翻译自 Jake VanderPlas 的 [Scikit-learn Tuto
 - github: [palandatarxcom](http://github.com/palandatarxcom)
 
 
-这个代码库包含了[Scikit-learn](http://scikit-learn.org)教程的 notebook 和其他相关的文件。
+这个代码库包含了[Scikit-learn](http://scikit-learn.org)教程 notebook 和其他相关的文件。
 
 
 ## 安装
@@ -29,10 +29,10 @@ sklearn_tutorial 中文教程，翻译自 Jake VanderPlas 的 [Scikit-learn Tuto
 - `scipy` 版本 0.10 或更新: http://www.scipy.org/
 - `matplotlib` 版本 1.3 或更高: http://matplotlib.org/
 - `scikit-learn` 版本 0.14 或更高: http://scikit-learn.org
-- `ipython` 版本 2.0 或更高， 支持 Jupyter notebook: http://ipython.org
+- `ipython` 版本 2.0 或更高， 支持 Jupyter notebook: http://ipython.org
 - `seaborn` 版本 0.5 或更高
 
-最方便的办法是使用 [conda](https://store.continuum.io/) 管理工具。 我建议现在和安装 [miniconda](http://conda.pydata.org/miniconda.html)。
+最方便的办法是使用 [conda](https://store.continuum.io/) 管理工具。 我建议下载和安装 [miniconda](http://conda.pydata.org/miniconda.html)。
 
 安装好以后，执行下面的命令将在你的 Python 环境下安装所有需要的包
 
