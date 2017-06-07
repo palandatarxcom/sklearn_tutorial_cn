@@ -28,11 +28,11 @@ sklearn_tutorial 中文教程，翻译自 Jake VanderPlas 的 [Scikit-learn Tuto
 - `numpy` 版本 1.5 或者更新: http://www.numpy.org/
 - `scipy` 版本 0.10 或更新: http://www.scipy.org/
 - `matplotlib` 版本 1.3 或更高: http://matplotlib.org/
-- `scikit-learn` 版本 0.14 或更高r: http://scikit-learn.org
-- `ipython` 版本 2.0 或更高, 支持 Jupyter notebook: http://ipython.org
+- `scikit-learn` 版本 0.14 或更高: http://scikit-learn.org
+- `ipython` 版本 2.0 或更高， 支持 Jupyter notebook: http://ipython.org
 - `seaborn` 版本 0.5 或更高
 
-最方便的拌饭是使用 [conda](https://store.continuum.io/) 管理工具。 我建议现在和安装 [miniconda](http://conda.pydata.org/miniconda.html)。
+最方便的办法是使用 [conda](https://store.continuum.io/) 管理工具。 我建议现在和安装 [miniconda](http://conda.pydata.org/miniconda.html)。
 
 安装好以后，执行下面的命令将在你的 Python 环境下安装所有需要的包
 
@@ -59,4 +59,4 @@ $ conda install numpy scipy matplotlib scikit-learn ipython-notebook seaborn
 
 另外也请注意，部分的代码在这个教程的目录结构之外是无法运行的，因此如果可能把整个代码库克隆下来是很重要的。
 
-【译者注】这个教程的全部内容已经安装在派兰数据分析平台上了，注册并登陆 http://palandata.com，不需要安装相关环境，也不需要克隆整个代码库，即可可以交互式地学习 sklearn 了。
+【译者注】这个教程的全部内容已经安装在派兰数据分析平台上了，注册并登陆 http://palandata.com ，不需要安装相关环境，也不需要克隆整个代码库，即可可以交互式地学习 sklearn 了。
