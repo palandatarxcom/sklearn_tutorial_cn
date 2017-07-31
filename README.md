@@ -59,4 +59,4 @@ $ conda install numpy scipy matplotlib scikit-learn ipython-notebook seaborn
 
 另外也请注意，部分的代码在这个教程的目录结构之外是无法运行的，因此如果可能把整个代码库克隆下来是很重要的。
 
-【译者注】这个教程的全部内容已经安装在派兰数据分析平台上了，注册并登陆 http://palandata.com ，不需要安装相关环境，也不需要克隆整个代码库，即可可以交互式地学习 sklearn 了。
+【译者注】这个教程的全部内容已经安装在派兰数据分析平台上了，注册并登陆 http://www.palandata.com ，不需要安装相关环境，也不需要克隆整个代码库，即刻可以交互式地学习 sklearn 了。
